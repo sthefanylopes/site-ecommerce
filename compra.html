@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>COMPRAR</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header class="text-light">
+        <div class="header-topo container d-flex justify-content-between">
+            <!--busca-->
+            <div class="topo-busca d-flex align-items-center">
+                <nav class="navbar navbar-light">
+                    <div class="container-fluid">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                            <button class="btn btn-outline-light" type="submit"><img src="img/lupa-icone.png" class="d-flex align-items-center" width="20px" height="20px"></button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        
+            <!--logo-->
+            <a href="index.html">
+                <img src="img/logo-loja.png" alt="Logo da loja">
+            </a>
+        
+            <!--opcoes-->
+            <div class="topo-icones d-flex align-items-center justify-content-end">              
+                <a href="" class="me-4">
+                    <img src="img/coracao-icone.png" width="30px" height="30px">
+                </a>
+                <a href="login.html" class="me-4">
+                    <img src="img/perfil-icone.png" width="30px" height="30px">
+                </a>
+                <a href="sacola.html" class="">
+                    <img src="img/sacolacompra-icone.png" width="30px" height="30px">
+                </a>              
+            </div>
+        </div>
+        
+        <!--header-2-->
+        <div class="header-2 d-flex justify-content-center border-bottom">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                               <a class="nav-link active" aria-current="page" href="#"><b>NOVIDADES</b></a>
+                            </li>
+        
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b>MULHER</b>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Camisetas</a></li>
+                                    <li><a class="dropdown-item" href="#">Vestidos</a></li>
+                                    <li><a class="dropdown-item" href="#">Calças e Shorts</a></li>
+                                    <li><a class="dropdown-item" href="#">Jaquetas e Casacos</a></li> 
+                                    <li><a class="dropdown-item" href="#">Acessórios</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#"><u>Ver tudo</u></a></li>
+                                </ul>
+                            </li> 
+        
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b>HOMEM</b>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Camisetas</a></li>
+                                    <li><a class="dropdown-item" href="#">Blazers e Ternos</a></li>
+                                    <li><a class="dropdown-item" href="#">Calças e Shorts</a></li>
+                                    <li><a class="dropdown-item" href="#">Jaquetas e Casacos</a></li>
+                                    <li><a class="dropdown-item" href="#">Acessórios</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#"><u>Ver tudo</u></a></li>
+                                </ul>
+                            </li> 
+        
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <b>CRIANÇAS</b>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Camisetas</a></li>
+                                    <li><a class="dropdown-item" href="#">Calças e Shorts</a></li>
+                                    <li><a class="dropdown-item" href="#">Jaquetas e Casacos</a></li>
+                                    <li><a class="dropdown-item" href="#">Sapatos</a></li>
+                                    <li><a class="dropdown-item" href="#">Acessórios</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#"><u>Ver tudo</u></a></li>
+                                </ul>
+                            </li> 
+        
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"><b>EM ALTA</b></a>
+                            </li>
+        
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>   
+            <!--Lista-->
+    <main>
+        <div class="compra">
+            <div class="container">
+                <div class="row">
+                        <!--Sacola-->
+                    <div class="col-6">
+                        <h2 class="mt-5 pb-2 ms-3 border-bottom">Sua sacola</h2>
+                               <!--Produto-->
+                        <div class="produtos d-inline-flex mt-4">
+                            <img src="img/Novidade-2.jpg" height="170" width="170">
+                            <div class="info d-flex align-items-start flex-column">
+                                <h5 class="ms-4">Versace Safety Pin Cut-Out Blazer</h5>
+                                <p class="ms-4">$3.350,00</p>
+                            </div>
+                        </div>
+                        <div class="totalProdutos mt-4 ms-3 me-3">
+                                <!--Subtotal-->
+                            <div class="subtotal">
+                                <p class="d-inline-flex">Subtotal</p>
+                                <p class="d-inline-flex float-end">$3.350,00</p>
+                            </div>
+                                <!--Entrega-->
+                            <div class="entrega">
+                                <p class="d-inline-flex">Entrega</p>
+                                <p class="d-inline-flex float-end">$0,00</h5>
+                            </div>
+                                <!--Total-->
+                            <div class="totalCompra">
+                                <h5 class="d-inline-flex">Total</p>
+                                <h5 class="d-inline-flex float-end">$3.350,00</h5>
+                            </div>
+                                <!--Endereço-->
+                            <div class="endereco">
+                                <label for="observacoesId" class="form-label mt-4">Endereço de entrega:</label>
+                                <br>
+                                <textarea name="" id="observacoesId" class="form-control" rows="2"></textarea>
+                            </div>
+                        </div>
+                               
+                    </div>
+                        <!--Dados-->
+                    <div class="col-6">
+                        <h2 class="mt-5 pb-2 ms-3 border-bottom ">Dados para pagamento</h2> 
+                        <div class="w-75 ms-5">
+                                <!--Número do cartão-->
+                            <label for="numId" class="form-label">Número do cartão:</label>
+                            <input type="number" class="form-control" name="num" id="numId">
+
+                                <!--Nome do titular-->
+                            <label for="nomeId" class="form-label mt-2">Titular do cartão:</label>
+                            <input type="text" class="form-control" name="nome" id="nomeId">
+
+                                <!--Vencimento--> 
+                            <div class="col-md-6">
+                                <label for="vencimentoId" class="form-label mt-2">Vencimento:</label>
+                                <input type="number" class="form-control" name="vencimento" id="vencimentoId">
+                            </div>
+                                <!--Botão--> 
+                            <div class="botao d-flex justify-content-center">
+                                <a href="" class="mt-5 btn btn-dark w-75">Finalizar compra</a>
+                            </div>
+                        </div>
+                            
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+            <!--Footer 1-->
+      <div class="footer1 d-flex justify-content-between">
+                          <!--Logo footer-->
+        <div class="img-footer">
+          <img src="img/logo-footer.png" alt="" width="219px" height="219px" class="">
+        </div>
+
+                             <!--Dados-->
+        <div class="info d-flex justify-content-center pt-5">
+          <div class="inicio pe-5">
+            <p><b>INÍCIO</b></p>
+            <a href="" class="text-decoration-none text-dark">Lojas</br></a>
+            <a href="" class="text-decoration-none text-dark">Serviços exclusivos</a>
+          </div>
+          <div class="sobrenos pe-5">
+            <p><b>SOBRE NÓS</b> </p>
+            <a href="" class="text-decoration-none text-dark">Perfil da companhia</br></a>
+            <a href="" class="text-decoration-none text-dark">Dados corporativos</br></a>
+            <a href="" class="text-decoration-none text-dark">Blog</a>
+          </div>
+          <div class="suporte pe-5">
+            <p><b>SUPORTE</b></p>
+            <a href="" class="text-decoration-none text-dark">FAQ</br></a>
+            <a href="" class="text-decoration-none text-dark">Contato</br></a>
+            <a href="" class="text-decoration-none text-dark">Chat</a>            
+          </div>
+        </div>
+                           <!--Redes-->
+        <div class="redes d-flex align-items-center">
+          <a href="">
+            <img src="img/twitter-icon.png" alt="" width="40px" height="40px" class="me-3">
+          </a>
+          <a href="">
+            <img src="img/facebook-icon.png" alt="" width="40px" height="40px" class="me-3">
+          </a>
+          <a href="" class="instagram">
+            <img src="img/instagram-icon.png" alt="" width="48px" height="48px" >
+          </a>
+        </div>
+      </div>
+
+      <!--Footer 2-->
+      <div class="footer2 ">
+        <p class="d-flex justify-content-center pt-3">© 2022 Copyright - Madamoiselle Beauty and Fashion</p>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

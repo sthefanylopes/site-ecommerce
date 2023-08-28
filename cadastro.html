@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CADASTRO</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header class="text-light">
+        <div class="header-topo container d-flex justify-content-between">
+        <!--busca-->
+            <div class="topo-busca d-flex align-items-center">
+                <nav class="navbar navbar-light">
+                    <div class="container-fluid">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                            <button class="btn btn-outline-light" type="submit"><img src="img/lupa-icone.png" class="d-flex align-items-center" width="20px" height="20px"></button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        
+            <!--logo-->
+            <a href="index.html">
+                <img src="img/logo-loja.png" alt="Logo da loja">
+            </a>
+        
+            <!--opcoes-->
+            <div class="topo-icones d-flex align-items-center justify-content-end">              
+                <a href="" class="me-4">
+                    <img src="img/coracao-icone.png" width="30px" height="30px">
+                </a>
+                <a href="login.html" class="me-4">
+                    <img src="img/perfil-icone.png" width="30px" height="30px">
+                </a>
+                <a href="sacola.html" class="">
+                    <img src="img/sacolacompra-icone.png" width="30px" height="30px">
+                </a>              
+            </div>
+        </div>
+        
+        <!--header-2-->
+        <div class="header-2 d-flex justify-content-center border-bottom">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                               <a class="nav-link active" aria-current="page" href="#"><b>NOVIDADES</b></a>
+                            </li>
+        
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b>MULHER</b>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Camisetas</a></li>
+                                    <li><a class="dropdown-item" href="#">Vestidos</a></li>
+                                    <li><a class="dropdown-item" href="#">Calças e Shorts</a></li>
+                                    <li><a class="dropdown-item" href="#">Jaquetas e Casacos</a></li> 
+                                    <li><a class="dropdown-item" href="#">Acessórios</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#"><u>Ver tudo</u></a></li>
+                                </ul>
+                            </li> 
+        
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b>HOMEM</b>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Camisetas</a></li>
+                                    <li><a class="dropdown-item" href="#">Blazers e Ternos</a></li>
+                                    <li><a class="dropdown-item" href="#">Calças e Shorts</a></li>
+                                    <li><a class="dropdown-item" href="#">Jaquetas e Casacos</a></li>
+                                    <li><a class="dropdown-item" href="#">Acessórios</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#"><u>Ver tudo</u></a></li>
+                                </ul>
+                            </li> 
+        
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <b>CRIANÇAS</b>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Camisetas</a></li>
+                                    <li><a class="dropdown-item" href="#">Calças e Shorts</a></li>
+                                    <li><a class="dropdown-item" href="#">Jaquetas e Casacos</a></li>
+                                    <li><a class="dropdown-item" href="#">Sapatos</a></li>
+                                    <li><a class="dropdown-item" href="#">Acessórios</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#"><u>Ver tudo</u></a></li>
+                                </ul>
+                            </li> 
+        
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"><b>EM ALTA</b></a>
+                            </li>
+        
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>   
+    <main>
+        <!--Cadastro-->
+        <div class="cadastrar pb-5">
+            <div class="container w-50">
+                <h2 class="mt-5 pb-2 mb-4 border-bottom">Cadastrar-se</h2>    
+                
+                    <form class="row g-3">
+                                <!--Nome-->
+                        <div class="col-12">
+                            <label for="nomeId" class="form-label">Nome:</label>
+                            <input type="text" class="form-control" name="nome" id="nomeId">
+                        </div>
+                                <!--Sobrenome-->
+                        <div class="col-12">
+                            <label for="sobrenomeId" class="form-label">Sobrenome:</label>
+                            <input type="text" class="form-control" name="sobrenome" id="sobrenomeId">
+                        </div>
+                                <!--DataNascimento--> 
+                        <div class="col-md-4">
+                            <label for="dataNascimentoId" class="form-label">Data de Nascimento:</label>
+                            <input type="date" class="form-control" name="dataNascimento" id="dataNascimentoId">
+                        </div>
+    
+                        <br><br>
+                                <!--Genero-->    
+                        <div class="col-md-8">
+                            <label for="generoId" class="form-label" >Título:</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Selecionar</option>
+                                <option value="1">Sr.</option>
+                                <option value="2">Sra.</option>
+                                <option value="3">Senhorita</option>
+                                <option value="4">Não informar</option>
+                            </select>
+                        </div>  
+                                <!--Email-->
+                        <div class="col-md-6">
+                            <label for="emailId" class="form-label">Email:</label>
+                            <input type="email" class="form-control" name="email" id="emailId">
+                        </div>
+                                <!--Senha-->    
+                        <div class="col-md-3">
+                            <label for="senha1Id" class="form-label">Senha:</label>
+                            <input type="password" class="form-control" name="senha1" id="senha1Id">
+                        </div>
+                                <!--RepetirSenha--> 
+                        <div class="col-md-3">
+                            <label for="senha2Id" class="form-label">Repita a senha:</label>
+                            <input type="password" class="form-control" name="senha2" id="senha2Id">                    
+                        </div>
+                                <!--Opcao-->
+                        <div class="col-12">
+                            <input type="checkbox" class="form-check-input" name="noticias" id="noticiasId">                    
+                            <label for="noticiasId" class="form-check-label">Cadastre-se para receber e-mails sobre os produtos e serviços da Madamoiselle.</label>
+                        </div>
+                                <!--Botão--> 
+                        <div class="botao d-flex justify-content-center mt-3">
+                            <a href="" class="botoes btn w-75">Confirmar</a>
+                        </div>
+                                <!--Login-->
+                        <div class="opcoes">
+                            <a href="login.html" class="link-secondary d-flex justify-content-center">Já tenho conta</a>
+                        </div>
+                    </form>
+                        
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+            <!--Footer 1-->
+      <div class="footer1 d-flex justify-content-between">
+                          <!--Logo footer-->
+        <div class="img-footer">
+          <img src="img/logo-footer.png" alt="" width="219px" height="219px" class="">
+        </div>
+
+                             <!--Dados-->
+        <div class="info d-flex justify-content-center pt-5">
+          <div class="inicio pe-5">
+            <p><b>INÍCIO</b></p>
+            <a href="" class="text-decoration-none text-dark">Lojas</br></a>
+            <a href="" class="text-decoration-none text-dark">Serviços exclusivos</a>
+          </div>
+          <div class="sobrenos pe-5">
+            <p><b>SOBRE NÓS</b> </p>
+            <a href="" class="text-decoration-none text-dark">Perfil da companhia</br></a>
+            <a href="" class="text-decoration-none text-dark">Dados corporativos</br></a>
+            <a href="" class="text-decoration-none text-dark">Blog</a>
+          </div>
+          <div class="suporte pe-5">
+            <p><b>SUPORTE</b></p>
+            <a href="" class="text-decoration-none text-dark">FAQ</br></a>
+            <a href="" class="text-decoration-none text-dark">Contato</br></a>
+            <a href="" class="text-decoration-none text-dark">Chat</a>            
+          </div>
+        </div>
+                           <!--Redes-->
+        <div class="redes d-flex align-items-center">
+          <a href="">
+            <img src="img/twitter-icon.png" alt="" width="40px" height="40px" class="me-3">
+          </a>
+          <a href="">
+            <img src="img/facebook-icon.png" alt="" width="40px" height="40px" class="me-3">
+          </a>
+          <a href="" class="instagram">
+            <img src="img/instagram-icon.png" alt="" width="48px" height="48px" >
+          </a>
+        </div>
+      </div>
+
+      <!--Footer 2-->
+      <div class="footer2 ">
+        <p class="d-flex justify-content-center pt-3">© 2022 Copyright - Madamoiselle Beauty and Fashion</p>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
